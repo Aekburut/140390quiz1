@@ -6,4 +6,9 @@ app.get('/',function(req,res){
     res.render('pages/index');
 });
 
+app.get('/',function(req,res){
+    res.render('pages/students');
+});
+
+
 app.listen(8080);
